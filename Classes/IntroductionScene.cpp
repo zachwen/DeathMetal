@@ -22,7 +22,7 @@ bool IntroductionScene::init() {
 }
 
 void IntroductionScene::onKeyReleased(EventKeyboard::KeyCode keyCode, Event* event) {
-    ecs->events.emit<DeathMetal::Input::OnKeyReleased>(keyCode, event);
+    ecs->events.emit<DeathMetal::DeathMetalEvent::OnKeyReleased>(keyCode, event);
 }
 
 void IntroductionScene::update(float delta) {

@@ -79,6 +79,13 @@
 		F615E095208E87E100227ABA /* IntroductionECS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F615E077208E70DB00227ABA /* IntroductionECS.cpp */; };
 		F615E096208E87E100227ABA /* IntroductionScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F615E07D208E70DC00227ABA /* IntroductionScene.cpp */; };
 		F615E09D208EAC3000227ABA /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F615E09C208EAC3000227ABA /* HelloWorldScene.cpp */; };
+		F6D0B72A208EDE8300E670F2 /* desert.png in Resources */ = {isa = PBXBuildFile; fileRef = F6D0B729208EDE8300E670F2 /* desert.png */; };
+		F6D0B72B208EDEE800E670F2 /* desert.png in Resources */ = {isa = PBXBuildFile; fileRef = F6D0B729208EDE8300E670F2 /* desert.png */; };
+		F6D0B72F208EE51600E670F2 /* Optimus_Prim_-_02_-_Dont_you_think.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6D0B72D208EE51600E670F2 /* Optimus_Prim_-_02_-_Dont_you_think.mp3 */; };
+		F6E97CEB20903ADA00E0DFB5 /* DeathMetal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6E97CEA20903ADA00E0DFB5 /* DeathMetal.cpp */; };
+		F6E97CEC20903AED00E0DFB5 /* DeathMetal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6E97CEA20903ADA00E0DFB5 /* DeathMetal.cpp */; };
+		F6E97CED209169A900E0DFB5 /* BattleECS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F615E07B208E70DB00227ABA /* BattleECS.cpp */; };
+		F6E97CEE209169B000E0DFB5 /* BattleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F615E07A208E70DB00227ABA /* BattleScene.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -200,6 +207,9 @@
 		F615E093208E81E800227ABA /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuScene.h; sourceTree = "<group>"; };
 		F615E09B208EAC3000227ABA /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldScene.h; sourceTree = "<group>"; };
 		F615E09C208EAC3000227ABA /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
+		F6D0B729208EDE8300E670F2 /* desert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = desert.png; sourceTree = "<group>"; };
+		F6D0B72D208EE51600E670F2 /* Optimus_Prim_-_02_-_Dont_you_think.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Optimus_Prim_-_02_-_Dont_you_think.mp3"; sourceTree = "<group>"; };
+		F6E97CEA20903ADA00E0DFB5 /* DeathMetal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeathMetal.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,6 +336,8 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F6D0B72D208EE51600E670F2 /* Optimus_Prim_-_02_-_Dont_you_think.mp3 */,
+				F6D0B729208EDE8300E670F2 /* desert.png */,
 				521A8EA819F11F5000D177D7 /* fonts */,
 				3EACC98E19EE6D4300EB3C5E /* res */,
 				46880B7619C43A67006E1F66 /* CloseNormal.png */,
@@ -345,6 +357,7 @@
 				F615E090208E81E800227ABA /* BattleECS.h */,
 				F615E07A208E70DB00227ABA /* BattleScene.cpp */,
 				F615E092208E81E800227ABA /* BattleScene.h */,
+				F6E97CEA20903ADA00E0DFB5 /* DeathMetal.cpp */,
 				F615E08A208E798C00227ABA /* DeathMetal.h */,
 				F615E09C208EAC3000227ABA /* HelloWorldScene.cpp */,
 				F615E09B208EAC3000227ABA /* HelloWorldScene.h */,
@@ -527,6 +540,7 @@
 				521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */,
 				521A8EA919F11F5000D177D7 /* fonts in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
+				F6D0B72A208EDE8300E670F2 /* desert.png in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
@@ -545,6 +559,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6D0B72F208EE51600E670F2 /* Optimus_Prim_-_02_-_Dont_you_think.mp3 in Resources */,
+				F6D0B72B208EDEE800E670F2 /* desert.png in Resources */,
 				46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				3EACC99019EE6D4300EB3C5E /* res in Resources */,
@@ -567,6 +583,7 @@
 				F615E082208E70DC00227ABA /* BattleScene.cpp in Sources */,
 				F615E07F208E70DC00227ABA /* IntroductionECS.cpp in Sources */,
 				F615E080208E70DC00227ABA /* WorkshopScene.cpp in Sources */,
+				F6E97CEB20903ADA00E0DFB5 /* DeathMetal.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				F615E083208E70DC00227ABA /* BattleECS.cpp in Sources */,
 				F615E081208E70DC00227ABA /* MenuECS.cpp in Sources */,
@@ -580,6 +597,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E97CEE209169B000E0DFB5 /* BattleScene.cpp in Sources */,
+				F6E97CED209169A900E0DFB5 /* BattleECS.cpp in Sources */,
+				F6E97CEC20903AED00E0DFB5 /* DeathMetal.cpp in Sources */,
 				F615E095208E87E100227ABA /* IntroductionECS.cpp in Sources */,
 				F615E096208E87E100227ABA /* IntroductionScene.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
@@ -689,6 +709,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../cocos2d/external/glfw3/include/mac",
 					"$(SRCROOT)/..",
+					/usr/local/include,
 				);
 				INFOPLIST_FILE = mac/Info.plist;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../entityx";
@@ -720,6 +741,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../cocos2d/external/glfw3/include/mac",
 					"$(SRCROOT)/..",
+					/usr/local/include,
 				);
 				INFOPLIST_FILE = mac/Info.plist;
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../entityx";

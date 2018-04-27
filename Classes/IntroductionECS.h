@@ -1,18 +1,23 @@
 #ifndef __INTRODUCTION_ECS__
 #define __INTRODUCTION_ECS__
 
+#include "DeathMetal.h"
 #include "cocos2d.h"
+#include "SimpleAudioEngine.h"
 #include "entityx/entityx.h"
 
 namespace DeathMetal {
     
     namespace IntroductionSystem {
-        class RenderSystem : public ex::System<RenderSystem> {
+        class IntroductionSystem : public ex::System<IntroductionSystem>, public ex::Receiver<IntroductionSystem> {
         private:
             cocos2d::Scene* scene; // cocos
+            cocos2d::Label* introductionLabel;
         public:
-            explicit RenderSystem(cocos2d::Scene* scene) : scene(scene) {}; // TODO: add cocos2d handle
+            explicit IntroductionSystem(cocos2d::Scene* scene) : scene(scene) {};
+            void configure(ex::EntityManager &entities, ex::EventManager &event_manager) override;
             void update(ex::EntityManager &es, ex::EventManager &events, ex::TimeDelta dt) override;
+            void receive(const DeathMetalEvent::OnKeyReleased& onKeyReleased);
         };
     }
     
