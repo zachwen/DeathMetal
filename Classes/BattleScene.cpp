@@ -11,7 +11,6 @@ bool BattleScene::init() {
     if ( !Scene::init() ) {
         return false;
     }
-    ecs = new BattleECS(this);
     
     auto listener = EventListenerKeyboard::create();
     listener->onKeyPressed = CC_CALLBACK_2(BattleScene::onKeyPressed, this);
@@ -20,6 +19,11 @@ bool BattleScene::init() {
     
     this->scheduleUpdateWithPriority(42);
     return 1;
+}
+
+void BattleScene::initECS(DeathMetalData* data) {
+    this->setUserData(data);
+    ecs = new BattleECS(this);
 }
 
 void BattleScene::onKeyPressed(EventKeyboard::KeyCode keyCode, Event* event) {

@@ -12,7 +12,6 @@ namespace DeathMetal {
         class IntroductionSystem : public ex::System<IntroductionSystem>, public ex::Receiver<IntroductionSystem> {
         private:
             cocos2d::Scene* scene; // cocos
-            cocos2d::Label* introductionLabel;
         public:
             explicit IntroductionSystem(cocos2d::Scene* scene) : scene(scene) {};
             void configure(ex::EntityManager &entities, ex::EventManager &event_manager) override;

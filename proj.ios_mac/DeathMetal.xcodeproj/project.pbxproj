@@ -86,6 +86,48 @@
 		F6E97CEC20903AED00E0DFB5 /* DeathMetal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6E97CEA20903ADA00E0DFB5 /* DeathMetal.cpp */; };
 		F6E97CED209169A900E0DFB5 /* BattleECS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F615E07B208E70DB00227ABA /* BattleECS.cpp */; };
 		F6E97CEE209169B000E0DFB5 /* BattleScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F615E07A208E70DB00227ABA /* BattleScene.cpp */; };
+		F6E97CFD2093BE0E00E0DFB5 /* MenuECS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F615E079208E70DB00227ABA /* MenuECS.cpp */; };
+		F6E97CFE2093BE0E00E0DFB5 /* MenuScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F615E07C208E70DB00227ABA /* MenuScene.cpp */; };
+		F6E97CFF209410A700E0DFB5 /* WorkshopECS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F615E07E208E70DC00227ABA /* WorkshopECS.cpp */; };
+		F6E97D00209410A700E0DFB5 /* WorkshopScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F615E078208E70DB00227ABA /* WorkshopScene.cpp */; };
+		F6E97D022094146C00E0DFB5 /* speech_balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D012094146C00E0DFB5 /* speech_balloon.png */; };
+		F6E97D0B209429CC00E0DFB5 /* Button_Down_Quit.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D03209429CA00E0DFB5 /* Button_Down_Quit.png */; };
+		F6E97D0C209429CC00E0DFB5 /* Button_Down_Workshop.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D04209429CA00E0DFB5 /* Button_Down_Workshop.png */; };
+		F6E97D0D209429CC00E0DFB5 /* Button_Up_Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D05209429CB00E0DFB5 /* Button_Up_Settings.png */; };
+		F6E97D0E209429CC00E0DFB5 /* Button_Up_Battle.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D06209429CB00E0DFB5 /* Button_Up_Battle.png */; };
+		F6E97D0F209429CC00E0DFB5 /* Button_Up_Quit.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D07209429CB00E0DFB5 /* Button_Up_Quit.png */; };
+		F6E97D10209429CC00E0DFB5 /* Button_Down_Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D08209429CB00E0DFB5 /* Button_Down_Settings.png */; };
+		F6E97D11209429CC00E0DFB5 /* Button_Down_Battle.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D09209429CC00E0DFB5 /* Button_Down_Battle.png */; };
+		F6E97D12209429CC00E0DFB5 /* Button_Up_Workshop.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D0A209429CC00E0DFB5 /* Button_Up_Workshop.png */; };
+		F6E97D1420944B8900E0DFB5 /* mentor.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D1320944B8900E0DFB5 /* mentor.png */; };
+		F6E97D1D20952DFB00E0DFB5 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D1C20952DFB00E0DFB5 /* title.png */; };
+		F6E97D2320957A6F00E0DFB5 /* hut1.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D1F20957A6E00E0DFB5 /* hut1.png */; };
+		F6E97D2420957A6F00E0DFB5 /* hero.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D2020957A6E00E0DFB5 /* hero.png */; };
+		F6E97D2520957A6F00E0DFB5 /* hut0.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D2120957A6F00E0DFB5 /* hut0.png */; };
+		F6E97D2620957A6F00E0DFB5 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D2220957A6F00E0DFB5 /* bullet.png */; };
+		F6E97D2A20957B3000E0DFB5 /* mutant_frame0.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D2720957B2F00E0DFB5 /* mutant_frame0.png */; };
+		F6E97D2B20957B3000E0DFB5 /* mutant_frame1.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D2820957B2F00E0DFB5 /* mutant_frame1.png */; };
+		F6E97D2C20957B3000E0DFB5 /* workshop.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D2920957B3000E0DFB5 /* workshop.png */; };
+		F6E97D322095A22F00E0DFB5 /* gunshot_heathers.wav in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D312095A22F00E0DFB5 /* gunshot_heathers.wav */; };
+		F6E97D3B2095BACB00E0DFB5 /* Button_Up_Saw.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D332095BAC800E0DFB5 /* Button_Up_Saw.png */; };
+		F6E97D3C2095BACB00E0DFB5 /* Button_Down_Bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D342095BAC800E0DFB5 /* Button_Down_Bullet.png */; };
+		F6E97D3D2095BACB00E0DFB5 /* Button_Down_Saw.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D352095BAC900E0DFB5 /* Button_Down_Saw.png */; };
+		F6E97D3E2095BACB00E0DFB5 /* Button_Down_Shield.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D362095BAC900E0DFB5 /* Button_Down_Shield.png */; };
+		F6E97D3F2095BACB00E0DFB5 /* Button_Up_Bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D372095BAC900E0DFB5 /* Button_Up_Bullet.png */; };
+		F6E97D402095BACB00E0DFB5 /* Button_Up_Shield.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D382095BACA00E0DFB5 /* Button_Up_Shield.png */; };
+		F6E97D412095BACB00E0DFB5 /* Button_Down_Flame.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D392095BACA00E0DFB5 /* Button_Down_Flame.png */; };
+		F6E97D422095BACB00E0DFB5 /* Button_Up_Flame.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D3A2095BACB00E0DFB5 /* Button_Up_Flame.png */; };
+		F6E97D452095BB6F00E0DFB5 /* Button_Down_Finish.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D432095BB6E00E0DFB5 /* Button_Down_Finish.png */; };
+		F6E97D462095BB6F00E0DFB5 /* Button_Up_Finish.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D442095BB6E00E0DFB5 /* Button_Up_Finish.png */; };
+		F6E97D4C209667EF00E0DFB5 /* Tagirijus_-_04_-_Hard_Fight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D4B209667EE00E0DFB5 /* Tagirijus_-_04_-_Hard_Fight.mp3 */; };
+		F6E97D4E20966A9E00E0DFB5 /* Blue_Dot_Sessions_-_01_-_KeoKeo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D4D20966A9E00E0DFB5 /* Blue_Dot_Sessions_-_01_-_KeoKeo.mp3 */; };
+		F6E97D5220966E8000E0DFB5 /* sand0.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D5020966E7F00E0DFB5 /* sand0.png */; };
+		F6E97D5320966E8000E0DFB5 /* sand1.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D5120966E8000E0DFB5 /* sand1.png */; };
+		F6E97D582096785100E0DFB5 /* circular_saw.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D542096784F00E0DFB5 /* circular_saw.png */; };
+		F6E97D592096785100E0DFB5 /* plate_armor.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D552096785000E0DFB5 /* plate_armor.png */; };
+		F6E97D5A2096785100E0DFB5 /* blow_torch.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D562096785000E0DFB5 /* blow_torch.png */; };
+		F6E97D5B2096785100E0DFB5 /* machine_gun.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D572096785100E0DFB5 /* machine_gun.png */; };
+		F6E97D5D20967F9600E0DFB5 /* workshop_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = F6E97D5C20967F9600E0DFB5 /* workshop_tile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -210,6 +252,44 @@
 		F6D0B729208EDE8300E670F2 /* desert.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = desert.png; sourceTree = "<group>"; };
 		F6D0B72D208EE51600E670F2 /* Optimus_Prim_-_02_-_Dont_you_think.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Optimus_Prim_-_02_-_Dont_you_think.mp3"; sourceTree = "<group>"; };
 		F6E97CEA20903ADA00E0DFB5 /* DeathMetal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeathMetal.cpp; sourceTree = "<group>"; };
+		F6E97D012094146C00E0DFB5 /* speech_balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speech_balloon.png; sourceTree = "<group>"; };
+		F6E97D03209429CA00E0DFB5 /* Button_Down_Quit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Down_Quit.png; sourceTree = "<group>"; };
+		F6E97D04209429CA00E0DFB5 /* Button_Down_Workshop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Down_Workshop.png; sourceTree = "<group>"; };
+		F6E97D05209429CB00E0DFB5 /* Button_Up_Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Up_Settings.png; sourceTree = "<group>"; };
+		F6E97D06209429CB00E0DFB5 /* Button_Up_Battle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Up_Battle.png; sourceTree = "<group>"; };
+		F6E97D07209429CB00E0DFB5 /* Button_Up_Quit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Up_Quit.png; sourceTree = "<group>"; };
+		F6E97D08209429CB00E0DFB5 /* Button_Down_Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Down_Settings.png; sourceTree = "<group>"; };
+		F6E97D09209429CC00E0DFB5 /* Button_Down_Battle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Down_Battle.png; sourceTree = "<group>"; };
+		F6E97D0A209429CC00E0DFB5 /* Button_Up_Workshop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Up_Workshop.png; sourceTree = "<group>"; };
+		F6E97D1320944B8900E0DFB5 /* mentor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mentor.png; sourceTree = "<group>"; };
+		F6E97D1C20952DFB00E0DFB5 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		F6E97D1F20957A6E00E0DFB5 /* hut1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hut1.png; sourceTree = "<group>"; };
+		F6E97D2020957A6E00E0DFB5 /* hero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hero.png; sourceTree = "<group>"; };
+		F6E97D2120957A6F00E0DFB5 /* hut0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hut0.png; sourceTree = "<group>"; };
+		F6E97D2220957A6F00E0DFB5 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
+		F6E97D2720957B2F00E0DFB5 /* mutant_frame0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mutant_frame0.png; sourceTree = "<group>"; };
+		F6E97D2820957B2F00E0DFB5 /* mutant_frame1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mutant_frame1.png; sourceTree = "<group>"; };
+		F6E97D2920957B3000E0DFB5 /* workshop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = workshop.png; sourceTree = "<group>"; };
+		F6E97D312095A22F00E0DFB5 /* gunshot_heathers.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gunshot_heathers.wav; sourceTree = "<group>"; };
+		F6E97D332095BAC800E0DFB5 /* Button_Up_Saw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Up_Saw.png; sourceTree = "<group>"; };
+		F6E97D342095BAC800E0DFB5 /* Button_Down_Bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Down_Bullet.png; sourceTree = "<group>"; };
+		F6E97D352095BAC900E0DFB5 /* Button_Down_Saw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Down_Saw.png; sourceTree = "<group>"; };
+		F6E97D362095BAC900E0DFB5 /* Button_Down_Shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Down_Shield.png; sourceTree = "<group>"; };
+		F6E97D372095BAC900E0DFB5 /* Button_Up_Bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Up_Bullet.png; sourceTree = "<group>"; };
+		F6E97D382095BACA00E0DFB5 /* Button_Up_Shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Up_Shield.png; sourceTree = "<group>"; };
+		F6E97D392095BACA00E0DFB5 /* Button_Down_Flame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Down_Flame.png; sourceTree = "<group>"; };
+		F6E97D3A2095BACB00E0DFB5 /* Button_Up_Flame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Up_Flame.png; sourceTree = "<group>"; };
+		F6E97D432095BB6E00E0DFB5 /* Button_Down_Finish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Down_Finish.png; sourceTree = "<group>"; };
+		F6E97D442095BB6E00E0DFB5 /* Button_Up_Finish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_Up_Finish.png; sourceTree = "<group>"; };
+		F6E97D4B209667EE00E0DFB5 /* Tagirijus_-_04_-_Hard_Fight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tagirijus_-_04_-_Hard_Fight.mp3"; sourceTree = "<group>"; };
+		F6E97D4D20966A9E00E0DFB5 /* Blue_Dot_Sessions_-_01_-_KeoKeo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Blue_Dot_Sessions_-_01_-_KeoKeo.mp3"; sourceTree = "<group>"; };
+		F6E97D5020966E7F00E0DFB5 /* sand0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sand0.png; sourceTree = "<group>"; };
+		F6E97D5120966E8000E0DFB5 /* sand1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sand1.png; sourceTree = "<group>"; };
+		F6E97D542096784F00E0DFB5 /* circular_saw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circular_saw.png; sourceTree = "<group>"; };
+		F6E97D552096785000E0DFB5 /* plate_armor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plate_armor.png; sourceTree = "<group>"; };
+		F6E97D562096785000E0DFB5 /* blow_torch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blow_torch.png; sourceTree = "<group>"; };
+		F6E97D572096785100E0DFB5 /* machine_gun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = machine_gun.png; sourceTree = "<group>"; };
+		F6E97D5C20967F9600E0DFB5 /* workshop_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = workshop_tile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -336,13 +416,51 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F6D0B72D208EE51600E670F2 /* Optimus_Prim_-_02_-_Dont_you_think.mp3 */,
-				F6D0B729208EDE8300E670F2 /* desert.png */,
-				521A8EA819F11F5000D177D7 /* fonts */,
-				3EACC98E19EE6D4300EB3C5E /* res */,
+				F6E97D562096785000E0DFB5 /* blow_torch.png */,
+				F6E97D4D20966A9E00E0DFB5 /* Blue_Dot_Sessions_-_01_-_KeoKeo.mp3 */,
+				F6E97D2220957A6F00E0DFB5 /* bullet.png */,
+				F6E97D09209429CC00E0DFB5 /* Button_Down_Battle.png */,
+				F6E97D342095BAC800E0DFB5 /* Button_Down_Bullet.png */,
+				F6E97D432095BB6E00E0DFB5 /* Button_Down_Finish.png */,
+				F6E97D392095BACA00E0DFB5 /* Button_Down_Flame.png */,
+				F6E97D03209429CA00E0DFB5 /* Button_Down_Quit.png */,
+				F6E97D352095BAC900E0DFB5 /* Button_Down_Saw.png */,
+				F6E97D08209429CB00E0DFB5 /* Button_Down_Settings.png */,
+				F6E97D362095BAC900E0DFB5 /* Button_Down_Shield.png */,
+				F6E97D04209429CA00E0DFB5 /* Button_Down_Workshop.png */,
+				F6E97D06209429CB00E0DFB5 /* Button_Up_Battle.png */,
+				F6E97D372095BAC900E0DFB5 /* Button_Up_Bullet.png */,
+				F6E97D442095BB6E00E0DFB5 /* Button_Up_Finish.png */,
+				F6E97D3A2095BACB00E0DFB5 /* Button_Up_Flame.png */,
+				F6E97D07209429CB00E0DFB5 /* Button_Up_Quit.png */,
+				F6E97D332095BAC800E0DFB5 /* Button_Up_Saw.png */,
+				F6E97D05209429CB00E0DFB5 /* Button_Up_Settings.png */,
+				F6E97D382095BACA00E0DFB5 /* Button_Up_Shield.png */,
+				F6E97D0A209429CC00E0DFB5 /* Button_Up_Workshop.png */,
+				F6E97D542096784F00E0DFB5 /* circular_saw.png */,
 				46880B7619C43A67006E1F66 /* CloseNormal.png */,
 				46880B7719C43A67006E1F66 /* CloseSelected.png */,
+				F6D0B729208EDE8300E670F2 /* desert.png */,
+				521A8EA819F11F5000D177D7 /* fonts */,
+				F6E97D312095A22F00E0DFB5 /* gunshot_heathers.wav */,
 				46880B7A19C43A67006E1F66 /* HelloWorld.png */,
+				F6E97D2020957A6E00E0DFB5 /* hero.png */,
+				F6E97D2120957A6F00E0DFB5 /* hut0.png */,
+				F6E97D1F20957A6E00E0DFB5 /* hut1.png */,
+				F6E97D572096785100E0DFB5 /* machine_gun.png */,
+				F6E97D1320944B8900E0DFB5 /* mentor.png */,
+				F6E97D2720957B2F00E0DFB5 /* mutant_frame0.png */,
+				F6E97D2820957B2F00E0DFB5 /* mutant_frame1.png */,
+				F6D0B72D208EE51600E670F2 /* Optimus_Prim_-_02_-_Dont_you_think.mp3 */,
+				F6E97D552096785000E0DFB5 /* plate_armor.png */,
+				3EACC98E19EE6D4300EB3C5E /* res */,
+				F6E97D5020966E7F00E0DFB5 /* sand0.png */,
+				F6E97D5120966E8000E0DFB5 /* sand1.png */,
+				F6E97D012094146C00E0DFB5 /* speech_balloon.png */,
+				F6E97D4B209667EE00E0DFB5 /* Tagirijus_-_04_-_Hard_Fight.mp3 */,
+				F6E97D1C20952DFB00E0DFB5 /* title.png */,
+				F6E97D5C20967F9600E0DFB5 /* workshop_tile.png */,
+				F6E97D2920957B3000E0DFB5 /* workshop.png */,
 			);
 			name = Resources;
 			path = ../Resources;
@@ -559,6 +677,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E97D5D20967F9600E0DFB5 /* workshop_tile.png in Resources */,
+				F6E97D582096785100E0DFB5 /* circular_saw.png in Resources */,
+				F6E97D592096785100E0DFB5 /* plate_armor.png in Resources */,
+				F6E97D5A2096785100E0DFB5 /* blow_torch.png in Resources */,
+				F6E97D5B2096785100E0DFB5 /* machine_gun.png in Resources */,
+				F6E97D5220966E8000E0DFB5 /* sand0.png in Resources */,
+				F6E97D5320966E8000E0DFB5 /* sand1.png in Resources */,
+				F6E97D4E20966A9E00E0DFB5 /* Blue_Dot_Sessions_-_01_-_KeoKeo.mp3 in Resources */,
+				F6E97D4C209667EF00E0DFB5 /* Tagirijus_-_04_-_Hard_Fight.mp3 in Resources */,
+				F6E97D452095BB6F00E0DFB5 /* Button_Down_Finish.png in Resources */,
+				F6E97D462095BB6F00E0DFB5 /* Button_Up_Finish.png in Resources */,
+				F6E97D3B2095BACB00E0DFB5 /* Button_Up_Saw.png in Resources */,
+				F6E97D3C2095BACB00E0DFB5 /* Button_Down_Bullet.png in Resources */,
+				F6E97D3D2095BACB00E0DFB5 /* Button_Down_Saw.png in Resources */,
+				F6E97D3E2095BACB00E0DFB5 /* Button_Down_Shield.png in Resources */,
+				F6E97D3F2095BACB00E0DFB5 /* Button_Up_Bullet.png in Resources */,
+				F6E97D402095BACB00E0DFB5 /* Button_Up_Shield.png in Resources */,
+				F6E97D412095BACB00E0DFB5 /* Button_Down_Flame.png in Resources */,
+				F6E97D422095BACB00E0DFB5 /* Button_Up_Flame.png in Resources */,
+				F6E97D322095A22F00E0DFB5 /* gunshot_heathers.wav in Resources */,
+				F6E97D2A20957B3000E0DFB5 /* mutant_frame0.png in Resources */,
+				F6E97D2B20957B3000E0DFB5 /* mutant_frame1.png in Resources */,
+				F6E97D2C20957B3000E0DFB5 /* workshop.png in Resources */,
+				F6E97D2320957A6F00E0DFB5 /* hut1.png in Resources */,
+				F6E97D2420957A6F00E0DFB5 /* hero.png in Resources */,
+				F6E97D2520957A6F00E0DFB5 /* hut0.png in Resources */,
+				F6E97D2620957A6F00E0DFB5 /* bullet.png in Resources */,
+				F6E97D1D20952DFB00E0DFB5 /* title.png in Resources */,
+				F6E97D1420944B8900E0DFB5 /* mentor.png in Resources */,
+				F6E97D0B209429CC00E0DFB5 /* Button_Down_Quit.png in Resources */,
+				F6E97D0C209429CC00E0DFB5 /* Button_Down_Workshop.png in Resources */,
+				F6E97D0D209429CC00E0DFB5 /* Button_Up_Settings.png in Resources */,
+				F6E97D0E209429CC00E0DFB5 /* Button_Up_Battle.png in Resources */,
+				F6E97D0F209429CC00E0DFB5 /* Button_Up_Quit.png in Resources */,
+				F6E97D10209429CC00E0DFB5 /* Button_Down_Settings.png in Resources */,
+				F6E97D11209429CC00E0DFB5 /* Button_Down_Battle.png in Resources */,
+				F6E97D12209429CC00E0DFB5 /* Button_Up_Workshop.png in Resources */,
+				F6E97D022094146C00E0DFB5 /* speech_balloon.png in Resources */,
 				F6D0B72F208EE51600E670F2 /* Optimus_Prim_-_02_-_Dont_you_think.mp3 in Resources */,
 				F6D0B72B208EDEE800E670F2 /* desert.png in Resources */,
 				46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */,
@@ -597,6 +753,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E97CFF209410A700E0DFB5 /* WorkshopECS.cpp in Sources */,
+				F6E97D00209410A700E0DFB5 /* WorkshopScene.cpp in Sources */,
+				F6E97CFD2093BE0E00E0DFB5 /* MenuECS.cpp in Sources */,
+				F6E97CFE2093BE0E00E0DFB5 /* MenuScene.cpp in Sources */,
 				F6E97CEE209169B000E0DFB5 /* BattleScene.cpp in Sources */,
 				F6E97CED209169A900E0DFB5 /* BattleECS.cpp in Sources */,
 				F6E97CEC20903AED00E0DFB5 /* DeathMetal.cpp in Sources */,

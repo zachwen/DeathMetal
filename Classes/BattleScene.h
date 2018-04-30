@@ -13,6 +13,7 @@ public:
     static cocos2d::Scene* createScene();
     virtual bool init() override;
     void update(float delta) override;
+    void initECS(DeathMetalData* data);
     CREATE_FUNC(BattleScene);
 private:
     BattleECS* ecs;
